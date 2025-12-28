@@ -1,0 +1,15 @@
+import time
+while True:
+ print("Hello! Put your text in the box so it can show on the output!")
+ text = input("your text>>")
+ print()
+ print(f"output text>>{text}")
+ time.sleep(1)
+ print()
+ print("resetting.")
+ time.sleep(1)
+ print()
+ print("\033c", end="")
+ time.sleep(2)
+ print("reseted")
+ print()
